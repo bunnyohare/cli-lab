@@ -1,0 +1,186 @@
+
+
+ Group name: spaceCases 
+ Jacob Sorrell, Ellen Mah, Yiwen Zhang , Andrew McClain , Charles Sprowal
+
+1. Create a directory called .
+mkdir PERSCHOLUNIVERSE
+
+2. Enter PERSCHOLUNIVERSE directory.
+cd PERSCHOLUNIVERSE
+
+Use the command pwd to make sure you’re in the right universe.
+3. pwd 
+
+4.Create 6 directories called space-center, international-astronomical-union, space-x, space-y, space-z, and wannabe-villains.
+
+mkdir space-center international-astronomical-union space-x space-y space-z wannabe-villains
+
+5. Enter space-center and create files with the following names: ellen, nehemiah, andrew, suresh, rema, richard, tyrell, randi, brittany, and chioma.
+
+cd space-center 
+
+touch ellen nehemiah andrew suresh rema richard tyrell randi brittany chioma
+
+6. Leave space-center.
+
+cd ..
+
+7. In the Space Center, your commanders have decided to assign the following perscholastronauts to space-x.
+
+no action needed 
+
+8. Without entering space-center and space-x, move richard, tyrell, randi, brittany, and chioma to space-x.
+
+mv space-center/richard space-center/tyrell space-center/randi space-center/brittany space-center/chioma space-x
+
+
+9. Make sure to verify they have been moved. Check space-x to see there are only 5 people in there, and 5 people you moved to space-x.
+ls space-x 
+ls space-center
+
+10. The world is going crazy with this mission. All space expedition organizations have decided to come together to complete the mission.
+no action needed 
+
+11.The International Astronomical Union was created and have decided to send out the top 10 perscholastronauts into space with space-x.
+no action needed
+
+12. At this point you should be inside PERSCHOLUNIVERSE. We will travel and enter international-astronomical-union.
+
+cd international-astronomical-union
+
+13. While inside the IAU, add the following perscholastronauts: sandra, manny, shamaine, maireg, alpha, justin, rockelle, timorra, aleena, yiwen, richard, and ahmed. 
+
+touch sandra manny shamaine maireg alpha justin rockelle timorra aleena yiwen richard ahmed 
+
+14.Still inside IAU, transfer sandra, manny, shamaine, maireg, and alpha to space-y. Transfer justin, rockelle, timorra, aleena, yiwen, richard, and ahmed to space-z.
+
+mv sandra manny shamaine maireg alpha ../space-y
+mv justin rockelle timorra aleena yiwen richard ahmed ../space-z
+
+15.Leave IAU and be back at the PERSCHOLOUNIVERSE directory. 
+cd ..
+
+16. Oh no we have a problem! There’s nobody at IAU to help the perscholastronauts on their mission. Let’s create a file called iau.txt.
+touch iau.txt
+
+17. Run your echo command to send out a distress call to IAU. Create a distress text using the echo command with the text 
+“Calling the following perscholastronauts to command IAU: jacob, charles, francis, ciera, corey, dickson, sabrun, and muhammad.” into the iau.txt.
+
+echo "Calling the following perscholastronauts to command IAU: jacob, charles, francis, ciera, corey, dickson, sabrun, and muhammad." >> iau.txt
+
+18.The commanders at IAU are double checking to make sure the distress call is made properly. Using the cat command, display the previous text inserted inside iau.txt. Once confirmed, move the iau.txt distress call inside international-astronomical-union without entering IAU
+
+cat iau.txt
+
+mv iau.txt international-astronomical-union
+
+19.Double check to make sure the distress text file made it inside IAU.
+
+ls international-astronomical-union
+
+20. OH NO! We got some wanna be villains acting out and not wanting anyone to find out whether Pluto is a planet or not. 
+
+no action needed
+
+21. Enter wannabe-villains directory. Create the following spaceplagiarizers files: sage,tristan, hewan, susmita, and michael.
+
+
+cd wannabe-villians
+touch sage tristan hewan susmita michael
+
+22. Leave wannabe-villains.
+cd ..
+
+23. The evil mastermind Sage decided that wannabe is just not striking enough. Change the directory name from wannabe-villains to plutonians.
+
+mv wannabe-villains plutonians
+
+
+24. Tristan and Hewan are masters of space technology and have created a weapon that is undetected by human technology.
+no action needed 
+
+25.Create a hidden file inside PERSCHOLUNIVERSE called 404yourenotfound. This spacecraft should not be visible to human technology.
+
+touch .404yournotfound 
+
+26. Susmita and Michael created technology that is able to detect the spacecraft 404yourenotfound. While inside PERSCHOLUNIVERSE, use the special detection technology command ls -a to make sure that 404yourenotfound is out patrolling.
+
+ls -a 
+
+27. Back on Earth, commanders Teo and Bryan gave the green light for spaceships x, y, and z to go into space.
+
+no action needed
+
+28. OH NO!!! The villains have taken down spaceships y and z with 404yourenotfound. Delete the following spaceships: y and z. 
+
+rm -r space-y space-z
+
+29.The humans don’t know what happened. Use the ls command to display how many spaceships are left out in the universe. They should not be able to see 404yourenotfound.
+ ls 
+
+30. Good always wins right? space-x was able to escape the attack and made its way to Pluto.
+ 
+N/A
+
+31.They get to Pluto and realize those red patches…are cities with advanced alien technology. They also find out that it can no longer be considered a planet because it doesn’t have a clear neighborhood in its orbit which nullifies it as a planet. They’re ready to take this information back to Earth and to tell the whole world about Plutonians.
+N/A
+
+32.Enter space-x spaceship.
+cd space-x
+
+
+33.Inside space-x…change…the name…of..chioma to 500internalservererror.
+
+mv chioma 500internalservererror
+
+
+34. Little did they know that 500internalservererror is actually a Plutonian…and they have infiltrated Earth to gather information. 
+
+N/A
+
+
+35. 500internalservererror had a plan to cause the spaceship to have issues outside of the spacecraft using her advanced technology knowledge. All 5 members were needed to be outside to fix the issues with the spacecraft. While outside 500internalservererror used her special laser power 403forbiddenlaser to delete everyone on board space-x. Remove randi, tyrell, brittany, and richard.
+
+rm randi tyrell brittany richard
+
+36. Space-x makes it way back to Earth. Make sure the only “perscholastronaut” inside space-x is suresh aka 500internalservererror.
+
+ls
+
+37.Leave space-x directory.
+cd ..
+
+38.Move space-x directory inside space-center for landing.
+
+mv space-x/ space-center
+
+39.Enter Space center.
+
+cd space-center
+
+40.Verify space-x successfully landed inside the Space Center.
+ls 
+ 
+41.It was time for Chioma to provide the mission report. Create a file called mission-report.txt inside space-center. Using the echo command write the following inside mission-report.txt: “I’m SOOO sad that my fellow perscholastronauts have perished while fixing issues outside the spacecraft. With the completion of this mission we have determined that the red patches on Pluto are bruises from all the times Earth said it wasn’t a planet. Oops, I mean. They’re just special red pigmentation from Tholin. Pluto is also too dangerous and should not be considered a planet. We should stop looking at Pluto. Sincerely, 500internalserverror…I mean Chioma.”
+
+touch mission-report.txt
+
+echo  “I’m SOOO sad that my fellow perscholastronauts have perished while fixing issues outside the spacecraft. With the completion of this mission we have determined that the red patches on Pluto are bruises from all the times Earth said it wasn’t a planet. Oops, I mean. They’re just special red pigmentation from Tholin. Pluto is also too dangerous and should not be considered a planet. We should stop looking at Pluto. Sincerely, 500internalserverror…I mean Chioma.” >> mission-report.txt
+
+42. (TBD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
